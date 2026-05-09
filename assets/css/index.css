@@ -1,0 +1,157 @@
+/* Section Home (Destaque Principal) */
+#home {
+    margin: 180px 0;
+}
+
+.main-feature {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-feature .content-text {
+    flex: 1;
+}
+
+.main-feature h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 15px;
+
+    &:hover{
+        color: var(--primary-color);
+        transition: transform 1s ease;
+    }
+
+}
+
+.main-feature p {
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.main-feature figure {
+    flex: 1;
+}
+
+.main-feature figure img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Section News */
+#news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+#news h2 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+/* Notícia em Destaque na News */
+.news-highlight {
+    display: flex;
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.news-highlight figure {
+    flex: 1.5;
+    padding: 30px;
+    
+    img{
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+}
+
+.news-highlight .news-content {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-highlight h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+
+    &:hover{
+        color: var(--primary-color);
+        transition: transform 1s ease;
+    }
+}
+
+.news-highlight footer {
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+/* Grid de Notícias Secundárias (Flexbox) */
+.news-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+    width: 100%;
+
+    border-radius: 12px;
+    background-color: var(--card-bg);
+}
+
+.news-card figure {
+    margin-bottom: 15px;
+    background-color: #ddd; /* Placeholder conforme design */
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.news-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    flex-grow: 1;
+
+    &:hover{
+        color: var(--primary-color);
+        transition: transform 1s ease;
+    }
+}
+
+.publisher {
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+/* Rodapés de Card */
+footer {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 10px;
+}
+
+/* efeito de card clicável */
+.news-card, .news-highlight {
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.news-card:hover, .news-highlight:hover {
+    transform: translateY(-5px);
+}
