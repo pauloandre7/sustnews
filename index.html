@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Sustnews</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <p>Sustnews</p>
+                    <!--<img src="logo-placeholder.png" alt="Logotipo do Portal Sustentável">-->
+                </a>
+            </div>
+            <ul>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs" target="_blank">ODS</a></li>
+                <li><a href="dicionario.html">Dicionário Sustentável</a></li>
+                <li><a href="acoes.html">Últimas Ações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <article class="main-feature">
+                <div class="content-text">
+                    <h1>
+                        <a href="https://www.cnnbrasil.com.br/blogs/pedro-cortes/economia/macroeconomia/plano-clima-exigira-corte-bilionario-de-emissoes-ate-2030/">
+                            Plano Clima exigirá corte bilionário de emissões até 2030
+                        </a>
+                    </h1>
+                    <p>
+                        O novo Plano Clima discutido pelo governo federal estabelece uma das metas ambientais mais 
+                        ambiciosas já assumidas pelo Brasil: reduzir as emissões nacionais de gases de efeito estufa 
+                        para cerca de 1,2 bilhão de toneladas de CO₂ equivalente até 2030.
+                    </p>
+                    <footer class="publisher">
+                        <span>CNN</span> — 
+                        <time datetime="2026-03-17">17/03/2026</time>
+                    </footer>
+                </div>
+                <figure>
+                    <img src="./assets/images/river-mountains.jpg" alt="Paisagem com rio, árvores e montanha ao fundo.">
+                </figure>
+            </article>
+        </section>
+
+        <section id="news">
+            <h2>Últimas Notícias</h2>
+
+            <article class="news-highlight">
+                <figure>
+                    <img src="./assets/images/parque-ambiental.jpg" alt="Foto da empresa White Martins.">
+                </figure>
+                <div class="news-content">
+                    <h3>
+                        <a href="https://www.cnnbrasil.com.br/infra/white-martins-lanca-primeira-planta-de-hidrogenio-verde-do-sudeste/">
+                            Cornélio Procópio ganhará parque urbano do Governo Estadual
+                        </a>
+                    </h3>
+                    <p>
+                        O Governo do Paraná planeja investir mais de R$ 60 milhões para construção de 31 
+                        novos parques urbanos até 2029. Na região do Norte Pioneiro, Cornélio Procópio 
+                        esta na lista.
+                    </p>
+                    <footer class="publisher">
+                        <span>Cornélio Notícias</span> — 
+                        <time datetime="2026-02-19">19/02/26</time>
+                    </footer>
+                </div>
+            </article>
+            
+            <!-- Agrupamento dos cards pra organizar no flexbox -->
+            <div class="news-wrapper">
+                <article class="news-card">
+                    <figure>
+                        <img src="./assets/images/parana-coleta-residuos.jpg" alt="Descrição da imagem 2">
+                    </figure>
+                    <h3>
+                        <a href="https://www.sedest.pr.gov.br/Noticia/Com-989-dos-domicilios-urbanos-atendidos-Parana-tem-maior-taxa-de-coleta-de-lixo-do-Brasil">
+                            Com 98,9% dos domicílios urbanos atendidos, Paraná tem maior taxa de coleta de lixo do Brasil
+                        </a>
+                    </h3>
+                    <footer class="publisher">
+                        <span>PR Gov</span> — 
+                        <time datetime="2026-04-26">07/04/26</time>
+                    </footer>
+                </article>
+
+                <article class="news-card">
+                    <figure>
+                        <img src="./assets/images/gestao-agua.jpg" alt="Descrição da imagem 2">
+                    </figure>
+                    <h3>
+                        <a href="https://www.sedest.pr.gov.br/Noticia/Gestao-da-agua-CBHs-Rio-Jordao-e-Rio-Tibagi-tem-reunioes-na-proxima-semana">
+                            Gestão da água: CBHs Rio Jordão e Rio Tibagi têm reuniões na próxima semana
+                        </a>
+                    </h3>
+                    <footer class="publisher">
+                        <span>PR Gov</span> — 
+                        <time datetime="2026-05-08">08/05/26</time>
+                    </footer>
+                </article>
+            </div>
+
+            <div class="news-wrapper">
+                <article class="news-card">
+                    <figure>
+                        <img src="./assets/images/parana-sustentavel.jpg" alt="Descrição da imagem 1">
+                    </figure>
+                    <h3>
+                        <a href="https://www.parana.pr.gov.br/aen/Noticia/Parana-Sustentavel-Estado-lanca-plataforma-para-apoiar-produtores-com-dados">
+                            Paraná + Sustentável: Estado lança plataforma para apoiar produtores com dados qualificados
+                        </a>
+                    </h3>
+                    <footer class="publisher">
+                        <span>PR Gov</span> — 
+                        <time datetime="2026-02-10">10/02/26</time>
+                    </footer>
+                </article>
+
+                <article class="news-card">
+                    <figure>
+                        <img src="./assets/images/white-martins.jpeg" alt="Foto da empresa White Martins.">
+                    </figure>
+                    <h3>
+                        <a href="https://www.cnnbrasil.com.br/infra/white-martins-lanca-primeira-planta-de-hidrogenio-verde-do-sudeste/">
+                            White Martins lança primeira planta de hidrogênio verde do Sudeste
+                        </a>
+                    </h3>
+                    <footer class="publisher">
+                        <span>CNN</span> — 
+                        <time datetime="2026-04-16">16/04/26</time>
+                    </footer>
+                </article> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal Sustentável - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
