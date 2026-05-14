@@ -5,11 +5,14 @@
  * Gosto de deixar as principais coisas aqui, assim é um lugar só para alterar*/
 :root {
     --primary-color: #58705C;
-    --background-color: #FAF6FE;
-    --card-bg: #ffffff;
+    --primary-light: #F6FEF7;
+    --second-color: #C58C6D;
+    --second-light: #FFF6EB;
+    --highlight: #DDBEA9;
+
     --text-main: #333333;
     --text-muted: #666666;
-    --white: #ffffff;
+    --text-light-muted: #e8f7ebe0;
 
     --font-family: 'Poppins', sans-serif;
 
@@ -24,7 +27,7 @@
 
 body {
     font-family: var(--font-family);
-    background-color: var(--background-color);
+    background-color: var(--primary-light);
     color: var(--text-main);
     line-height: 1.6;
 }
@@ -52,7 +55,7 @@ img {
 /* Header & Nav */
 header {
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--primary-light);
     padding: 10px 0;
 }
 
@@ -73,4 +76,19 @@ nav ul {
 nav ul li a {
     font-weight: 600;
     font-size: 0.9rem;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 8px;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--highlight);
+
+    &:hover{
+        cursor: pointer;
+    }
 }
