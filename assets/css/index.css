@@ -39,6 +39,10 @@
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
+.main-feature footer {
+    color: var(--primary-color);
+}
+
 /* Section News */
 #news {
     display: flex;
@@ -57,7 +61,7 @@
 /* Notícia em Destaque na News */
 .news-highlight {
     display: flex;
-    background-color: var(--card-bg);
+    background-color: var(--text-light-muted);
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 40px;
@@ -85,16 +89,16 @@
 .news-highlight h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
+    color: var(--primary-color);
 
     &:hover{
-        color: var(--primary-color);
+        color: var(--text-muted);
         transition: transform 1s ease;
     }
 }
 
-.news-highlight footer {
-    font-weight: 900;
-    color: var(--primary-color);
+.news-highlight p {
+    color: var(--text-muted);
 }
 
 /* Grid de Notícias Secundárias (Flexbox) */
@@ -112,38 +116,38 @@
     width: 100%;
 
     border-radius: 12px;
-    background-color: var(--card-bg);
+    background-color: var(--text-light-muted);
 }
 
 .news-card figure {
     margin-bottom: 15px;
-    background-color: #ddd; /* Placeholder conforme design */
     height: 100%;
     border-radius: 15px;
-    overflow: hidden;
+
+    img{
+        border-radius: 10px;
+    }
 }
 
 .news-card h3 {
     font-size: 1.1rem;
     margin-bottom: 10px;
     flex-grow: 1;
+    font-weight: 700;
+
+    color: var(--primary-color);
 
     &:hover{
-        color: var(--primary-color);
+        color: var(--text-muted);
         transition: transform 1s ease;
     }
 }
 
 .publisher {
-    font-weight: 900;
-    color: var(--primary-color);
-}
-
-/* Rodapés de Card */
-footer {
     font-size: 0.8rem;
-    color: var(--text-muted);
     margin-top: 10px;
+    font-weight: 700;
+    color: var(--primary-color);
 }
 
 /* efeito de card clicável */
