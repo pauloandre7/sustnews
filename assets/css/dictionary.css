@@ -8,7 +8,8 @@
     /* Defini o tamanho da header como uma variável para automatizar propriedades como essa, que
     dependem do tamanho de outros elementos para ficarem corretos na tela*/
     top: var(--header-height);
-    position: sticky; 
+    position: sticky;
+    z-index: 90;
 
     padding: 50px 0px;
 
