@@ -1,0 +1,45 @@
+
+#filters{
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    /* Defini o tamanho da header como uma variável para automatizar propriedades como essa, que
+    dependem do tamanho de outros elementos para ficarem corretos na tela*/
+    top: var(--header-height);
+    position: sticky; 
+
+    padding: 50px 0px;
+
+    background: var(--primary-light);
+}
+
+.filters-letters{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    gap: 10px;
+    justify-content: center;
+}
+
+.dict-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 50px 0px;
+
+    h2{
+        color: var(--primary-color);
+    }
+}
+
+.dict-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding: 0px 0px 0px 30px;
+}
