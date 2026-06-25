@@ -4,6 +4,7 @@
 /*Variáveis para utilizar ao longo do projeto
  * Gosto de deixar as principais coisas aqui, assim é um lugar só para alterar*/
 :root {
+    
     --primary-color: #58705C;
     --primary-light: #F6FEF7;
     --second-color: #C58C6D;
@@ -18,6 +19,21 @@
 
     --spacing-base: 20px;
     --header-height: 50px;
+}
+
+/* Essa classe será usada para alterar o contraste do site 
+todo através de um botão de acessibilidade.*/
+.high-contrast {
+    --primary-color: #3D5440;
+    --primary-light: #F6FEF7;
+    
+    --second-color: #9C5B39;
+    --second-light: #FFF6EB;
+    --highlight: #e2d4ca;
+    
+    --text-main: #2C2C2C;
+    --text-muted: #525252;
+    --text-light-muted: #E2F1E5;
 }
 
 * {
@@ -82,6 +98,10 @@ nav ul {
 nav ul li a {
     font-weight: 600;
     font-size: 0.9rem;
+
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 .footer-main{
@@ -105,6 +125,8 @@ nav ul li a {
 }
 
 .btn{
+    display: flex;
+    flex-direction: row;
     background-color: var(--primary-color);
     border: none;
     padding: 6px 15px;
@@ -116,5 +138,25 @@ nav ul li a {
 
     &:hover{
         cursor: pointer;
+    }
+}
+
+.btn-accessibility{
+
+    width: fit-content;
+    height: 100%;
+    gap: 5px;
+
+    color: var(--primary-light);
+    background-color: #9C5B39;
+
+    img{
+        width: 20px;
+    }
+
+    &:hover{
+        background-color: #be7f5c;
+        font-weight: 500;
+        transition: ease 0.5s;
     }
 }
