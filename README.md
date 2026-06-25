@@ -14,7 +14,7 @@
 
 <h2>Acesso ao Projeto</h2>
 <p>
-  ❗ O projeto ainda se encontra em desenvolvimento e sem nenhuma versão hospedada em servidor online.
+  Github Pages: https://pauloandre7.github.io/sustnews/
 </p>
 
 <h2>Tecnologias Utilizadas</h2>
@@ -25,6 +25,6 @@
 
 <h2>Autores</h2>
 
-| Autor | Autor |
-| :---: | :---: |
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/147359503?v=4" width=115><br><sub>Paulo André Oliveira</sub>](https://github.com/pauloandre7) | [<img loading="lazy" src="" width=115><br><sub>João Pedro Paes</sub>](https://github.com/) 
+| Autor |
+| :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/147359503?v=4" width=115><br><sub>Paulo André Oliveira</sub>](https://github.com/pauloandre7) |
