@@ -20,6 +20,7 @@
 
     &:hover{
         color: var(--primary-color);
+        text-decoration: underline;
         transition: transform 1s ease;
     }
 
@@ -93,6 +94,7 @@
 
     &:hover{
         color: var(--text-muted);
+        text-decoration: underline;
         transition: transform 1s ease;
     }
 }
@@ -139,6 +141,7 @@
 
     &:hover{
         color: var(--text-muted);
+        text-decoration: underline;
         transition: transform 1s ease;
     }
 }
