@@ -43,6 +43,9 @@ todo através de um botão de acessibilidade.*/
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: var(--font-family);
     background-color: var(--primary-light);
     color: var(--text-main);
@@ -61,6 +64,7 @@ ul {
 main {
     max-width: 1200px;
     margin: 0 auto;
+    flex: 1;
     padding: var(--spacing-base);
 }
 
